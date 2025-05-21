@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thai Sentiment Analysis</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+.Positive{
+    color: #28B463
+}
+.Negative{
+    color: #E74C3C  
+}
+
+.result{
+    font-size: 30px;
+    color: white;
+
+}
+</style>
+
+</head>
+<head>
+  <!-- meta data -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!--font-family-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  
+  <!-- title of site -->
+  <title>Directory Landing Page</title>
+
+  <!-- For favicon png -->
+<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+ 
+  <!--font-awesome.min.css-->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  <!--linear icon css-->
+<link rel="stylesheet" href="assets/css/linearicons.css">
+
+<!--animate.css-->
+  <link rel="stylesheet" href="assets/css/animate.css">
+
+<!--flaticon.css-->
+  <link rel="stylesheet" href="assets/css/flaticon.css">
+
+<!--slick.css-->
+  <link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/slick-theme.css">
+
+  <!--bootstrap.min.css-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+<!-- bootsnav -->
+<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+  
+  <!--style.css-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!--responsive.css-->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+		
+  <!-- Bootstrap JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<!-- jQuery -->
+			<script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<body>
+				</div>
+			</div>
+		</div>
+
+<!--welcome-hero start -->
+<section id="home" class="welcome-hero">
+  <div class="welcome-hero-txt">
+      <h2>toxic comment classification <br> project Natural Language Processing </h2>
+      <p>
+          You can enter text into the box below in order to check whether the message is positive or negative
+      </p>
+  </div>
+  <div class="welcome-hero-serch-box">
+      <div class="single-welcome-hero-form text-center">
+          <!-- ย้ายกรอบข้อความไปตรงกลาง -->
+          <form id="myForm">
+              <div class="mb-3 mt-5">
+                  <label for="input-text" class="form-label"></label>
+                  <textarea type="text" class="form-control" id="input-text" placeholder="Type here..." cols="500"></textarea>
+                  <div class="result" id="result"></div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+
+</section>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--list-topics start -->
+		<section id="list-topics" class="list-topics">
+			<div class="container">
+				<div class="list-topics-content">
+					<ul>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+                  <div class="single-list-topics-icon">
+                    <img src="assets/images/computer.png" alt="Computer Icon" style="width: 50px; height: 50px;">
+                  </div>
+								</div>
+								<h2><a href="#">NLP</a></h2>
+								<p>Natural language </p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+                  <div class="single-list-topics-icon">
+                    <img src="assets/images/artificial-intelligence.png" alt="Computer Icon" style="width: 50px; height: 50px;">
+                  </div>
+								</div>
+								<h2><a href="#">FCN</a></h2>
+								<p>Fully Connected Networks</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+                  <div class="single-list-topics-icon">
+                    <img src="assets/images/ai.png" alt="Computer Icon" style="width: 50px; height: 50px;">
+                  </div>
+								</div>
+								<h2><a href="#">RNN</a></h2>
+								<p>Recurrent Neural Network</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+                  <div class="single-list-topics-icon">
+                    <img src="assets/images/analytics.png" alt="Computer Icon" style="width: 50px; height: 50px;">
+                  </div>
+								</div>
+								<h2><a href="#">POS</a></h2>
+								<p>Part of Speech Tagging</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+                  <div class="single-list-topics-icon">
+                    <img src="assets/images/artificial.png" alt="Computer Icon" style="width: 50px; height: 50px;">
+                  </div>
+								</div>
+								<h2><a href="#">LSTM</a></h2>
+								<p>Long Short-Term Memory </p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.list-topics-->
+		<!--list-topics end-->
+
+
+  <script>
+    $(document).ready(function() {
+      $("#myForm").submit(function(event) {
+        event.preventDefault(); // Prevent form from submitting normally
+        var inputText = $("#input-text").val(); // Get input value
+        $.ajax({
+          type: "POST",
+          contentType: "application/json",
+          url: "http://localhost:3000/predict", // Replace with your API endpoint URL
+          data: JSON.stringify({ text: inputText }), // Pass input value as data to API
+          dataType: 'json',
+          success: function(response) {
+            alert("Data submitted successfully!"); // Show success message
+            console.log(response);
+           // $("#input-text").val(""); // Clear input field
+            $("#result").html("<div class='"+response.prediction+"''>"+response.prediction+"</div>");
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert("Error submitting data: " + errorThrown); // Show error message
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
